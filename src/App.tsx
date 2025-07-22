@@ -20,12 +20,10 @@ function App() {
     <div className="flex flex-col items-center justify-center min-h-svh">
       <Card>
         <CardHeader>
-          <div className="flex justify-center">
             <Avatar>
               <AvatarImage src="/images/profile.jpg" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-          </div>
           <div className="text-left">
             <CardTitle>Miguel Mosquera</CardTitle>
             <CardDescription>Software Engineer</CardDescription>
